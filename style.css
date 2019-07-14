@@ -1,0 +1,38 @@
+body {
+    background-image: url(./images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    text-align: center;
+}
+
+#filmcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.film {
+    border: black solid 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+}
+
+img {
+    height: 240px;
+    width: 180px;
+}
+
+.favorite {
+    border: yellow solid 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+}

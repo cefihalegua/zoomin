@@ -1,0 +1,1 @@
+Just opening the html is enough for app to work. It is responsive. 
